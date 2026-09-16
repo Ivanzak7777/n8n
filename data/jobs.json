@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T09:16:11.821Z",
+  "updatedAt": "2026-09-16T10:08:49.392Z",
   "jobCount": 8,
   "sourceErrors": [],
   "jobs": [
@@ -14,7 +14,7 @@
       "category": "qa",
       "isCyprus": true,
       "postedDate": "2026-08-18",
-      "scrapedAt": "2026-09-16T09:16:03.299Z"
+      "scrapedAt": "2026-09-16T10:08:40.833Z"
     },
     {
       "id": "workable:payabl:FA03F651D3",
@@ -27,7 +27,7 @@
       "category": "product",
       "isCyprus": true,
       "postedDate": "2026-08-17",
-      "scrapedAt": "2026-09-16T09:16:03.299Z"
+      "scrapedAt": "2026-09-16T10:08:40.833Z"
     },
     {
       "id": "djinni:846420",
@@ -40,7 +40,7 @@
       "category": "product",
       "isCyprus": true,
       "postedDate": null,
-      "scrapedAt": "2026-09-16T09:16:11.402Z"
+      "scrapedAt": "2026-09-16T10:08:48.986Z"
     },
     {
       "id": "djinni:843255",
@@ -53,7 +53,7 @@
       "category": "product",
       "isCyprus": false,
       "postedDate": null,
-      "scrapedAt": "2026-09-16T09:16:09.032Z"
+      "scrapedAt": "2026-09-16T10:08:46.607Z"
     },
     {
       "id": "greenhouse:whitetech:4338179101",
@@ -66,7 +66,7 @@
       "category": "product",
       "isCyprus": false,
       "postedDate": "2026-08-24T10:45:03-04:00",
-      "scrapedAt": "2026-09-16T09:16:04.377Z"
+      "scrapedAt": "2026-09-16T10:08:41.750Z"
     },
     {
       "id": "greenhouse:whitetech:4940539101",
@@ -79,7 +79,7 @@
       "category": "product",
       "isCyprus": false,
       "postedDate": "2026-08-24T10:46:32-04:00",
-      "scrapedAt": "2026-09-16T09:16:04.377Z"
+      "scrapedAt": "2026-09-16T10:08:41.750Z"
     },
     {
       "id": "greenhouse:whitetech:4344905101",
@@ -92,7 +92,7 @@
       "category": "qa",
       "isCyprus": false,
       "postedDate": "2026-08-24T10:49:12-04:00",
-      "scrapedAt": "2026-09-16T09:16:04.377Z"
+      "scrapedAt": "2026-09-16T10:08:41.750Z"
     },
     {
       "id": "greenhouse:whitetech:4948682101",
@@ -105,7 +105,7 @@
       "category": "product",
       "isCyprus": false,
       "postedDate": "2026-08-24T10:48:17-04:00",
-      "scrapedAt": "2026-09-16T09:16:04.377Z"
+      "scrapedAt": "2026-09-16T10:08:41.750Z"
     }
   ]
 }
