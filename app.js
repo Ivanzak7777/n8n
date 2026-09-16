@@ -1,3 +1,8 @@
+const DATA_URLS = [
+  'https://raw.githubusercontent.com/Ivanzak7777/n8n/master/data/jobs.json',
+  'https://raw.githubusercontent.com/Ivanzak7777/n8n/master/data/jobs-indeed.json',
+];
+
 const state = {
   jobs: [],
   position: 'all',
@@ -18,6 +23,11 @@ const els = {
   cyprusSection: document.getElementById('cyprus-section'),
   otherSection: document.getElementById('other-section'),
   emptyState: document.getElementById('empty-state'),
+  loadingSkeleton: document.getElementById('loading-skeleton'),
+  statTotal: document.getElementById('stat-total'),
+  statQa: document.getElementById('stat-qa'),
+  statProduct: document.getElementById('stat-product'),
+  statCyprus: document.getElementById('stat-cyprus'),
 };
 
 const CATEGORY_LABEL = { qa: 'QA', product: 'Product' };
@@ -28,6 +38,16 @@ function formatDate(iso) {
     return new Date(iso).toLocaleDateString('uk-UA', { year: 'numeric', month: 'short', day: 'numeric' });
   } catch {
     return '';
+  }
+}
+
+async function fetchJobData(url) {
+  try {
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) return { jobs: [], updatedAt: null, sourceErrors: [] };
+    return await res.json();
+  } catch {
+    return { jobs: [], updatedAt: null, sourceErrors: [] };
   }
 }
 
@@ -54,6 +74,20 @@ function buildCompanyPills() {
     });
     els.companyFilter.appendChild(btn);
   }
+}
+
+function updateStats() {
+  const total = state.jobs.length;
+  const qa = state.jobs.filter((job) => job.category === 'qa').length;
+  const product = state.jobs.filter((job) => job.category === 'product').length;
+  const cyprusCompanies = new Set(
+    state.jobs.filter((job) => job.isCyprus).map((job) => job.company),
+  ).size;
+
+  els.statTotal.textContent = total;
+  els.statQa.textContent = qa;
+  els.statProduct.textContent = product;
+  els.statCyprus.textContent = cyprusCompanies;
 }
 
 function jobCard(job) {
@@ -172,22 +206,30 @@ async function init() {
   bindStaticControls();
 
   try {
-    const res = await fetch('./data/jobs.json', { cache: 'no-store' });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const data = await res.json();
+    const results = await Promise.all(DATA_URLS.map(fetchJobData));
 
-    state.jobs = data.jobs || [];
-    els.updatedAt.textContent = data.updatedAt
-      ? `Оновлено: ${new Date(data.updatedAt).toLocaleString('uk-UA')}`
-      : '';
+    const allJobs = results.flatMap((data) => data.jobs || []);
+    const byId = new Map();
+    for (const job of allJobs) byId.set(job.id, job);
+    state.jobs = [...byId.values()];
 
-    if (data.sourceErrors && data.sourceErrors.length > 0) {
-      els.sourceErrorsNote.textContent = `⚠ Деякі джерела тимчасово недоступні (${data.sourceErrors.length})`;
+    const timestamps = results.map((data) => data.updatedAt).filter(Boolean).sort();
+    const latest = timestamps[timestamps.length - 1];
+    els.updatedAt.textContent = latest
+      ? `Оновлено: ${new Date(latest).toLocaleString('uk-UA')}`
+      : 'Дата оновлення невідома';
+
+    const errorCount = results.reduce((sum, data) => sum + (data.sourceErrors?.length || 0), 0);
+    if (errorCount > 0) {
+      els.sourceErrorsNote.textContent = `⚠ Деякі джерела тимчасово недоступні (${errorCount})`;
     }
 
+    els.loadingSkeleton.hidden = true;
     buildCompanyPills();
+    updateStats();
     render();
   } catch (err) {
+    els.loadingSkeleton.hidden = true;
     els.updatedAt.textContent = 'Не вдалося завантажити дані.';
     els.emptyState.hidden = false;
     els.emptyState.textContent = 'Помилка завантаження вакансій. Спробуйте оновити сторінку пізніше.';

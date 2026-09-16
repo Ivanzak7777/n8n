@@ -4,25 +4,51 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Payments Jobs Board — QA &amp; Product у платіжних компаніях</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💳</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="page-header">
     <div class="header-inner">
-      <h1>Payments Jobs Board</h1>
-      <p class="subtitle">Відкриті вакансії QA та Product у платіжних/fintech компаніях. Оновлюється щодня.</p>
-      <p class="updated-at" id="updated-at">Завантаження...</p>
+      <div class="brand">
+        <span class="brand-mark">💳</span>
+        <h1>Payments Jobs Board</h1>
+      </div>
+      <p class="subtitle">Відкриті вакансії QA та Product у payments/fintech компаніях. Оновлюється щодня.</p>
+      <p class="updated-at" id="updated-at">Завантаження даних...</p>
+
+      <div class="stats-row" id="stats-row">
+        <div class="stat-tile">
+          <span class="stat-value" id="stat-total">–</span>
+          <span class="stat-label">Всього вакансій</span>
+        </div>
+        <div class="stat-tile stat-qa">
+          <span class="stat-value" id="stat-qa">–</span>
+          <span class="stat-label">QA</span>
+        </div>
+        <div class="stat-tile stat-product">
+          <span class="stat-value" id="stat-product">–</span>
+          <span class="stat-label">Product</span>
+        </div>
+        <div class="stat-tile stat-cyprus">
+          <span class="stat-value" id="stat-cyprus">–</span>
+          <span class="stat-label">🇨🇾 Кіпр</span>
+        </div>
+      </div>
     </div>
   </header>
 
   <main class="container">
     <section class="controls">
       <div class="control-row">
-        <input type="search" id="search-input" placeholder="Пошук за назвою вакансії..." />
+        <input type="search" id="search-input" placeholder="Пошук за назвою вакансії або компанією..." />
       </div>
 
       <div class="control-row">
-        <span class="control-label">Позиція:</span>
+        <span class="control-label">Позиція</span>
         <div class="pill-group" id="position-filter">
           <button class="pill active" data-value="all">Всі</button>
           <button class="pill" data-value="qa">QA</button>
@@ -31,7 +57,7 @@
       </div>
 
       <div class="control-row">
-        <span class="control-label">Компанії:</span>
+        <span class="control-label">Компанії</span>
         <button class="pill pill-reset" id="reset-companies">Скинути</button>
         <div class="pill-group" id="company-filter"></div>
       </div>
@@ -42,12 +68,18 @@
       <span id="source-errors-note" class="source-errors-note"></span>
     </section>
 
-    <section id="cyprus-section" class="job-section">
+    <div id="loading-skeleton" class="job-list">
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+      <div class="skeleton-card"></div>
+    </div>
+
+    <section id="cyprus-section" class="job-section" hidden>
       <h2 class="section-title">🇨🇾 Компанії з Кіпру</h2>
       <div class="job-list" id="cyprus-jobs"></div>
     </section>
 
-    <section id="other-section" class="job-section">
+    <section id="other-section" class="job-section" hidden>
       <h2 class="section-title">Інші компанії</h2>
       <div class="job-list" id="other-jobs"></div>
     </section>
@@ -56,7 +88,7 @@
   </main>
 
   <footer class="page-footer">
-    <p>Джерела: Djinni.co, офіційні career-сторінки компаній, Indeed (best-effort). Дані оновлюються раз на день через GitHub Actions.</p>
+    <p>Джерела: Djinni.co, офіційні career-сторінки компаній (Greenhouse/Lever/Teamtailor/Workable), Indeed (через офіційний connector). Дані оновлюються раз на день.</p>
   </footer>
 
   <script src="app.js"></script>

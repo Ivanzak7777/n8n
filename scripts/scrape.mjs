@@ -3,7 +3,6 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { scrapeDjinni } from './sources/djinni.mjs';
 import { scrapeAts } from './sources/ats.mjs';
-import { scrapeIndeed } from './sources/indeed.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -35,11 +34,7 @@ function dedupe(jobs) {
 async function main() {
   const companies = await loadCompanies();
 
-  const sourceRuns = await Promise.allSettled([
-    scrapeDjinni(companies),
-    scrapeAts(companies),
-    scrapeIndeed(companies),
-  ]);
+  const sourceRuns = await Promise.allSettled([scrapeDjinni(companies), scrapeAts(companies)]);
 
   const allJobs = [];
   const allErrors = [];
