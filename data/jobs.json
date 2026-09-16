@@ -1,0 +1,114 @@
+{
+  "updatedAt": "2026-09-16T08:53:26.454Z",
+  "jobCount": 8,
+  "sourceErrors": [
+    "indeed:QA Engineer payments: HTTP 403 for query \"QA Engineer payments\"",
+    "indeed:Product Manager payments fintech: HTTP 403 for query \"Product Manager payments fintech\""
+  ],
+  "jobs": [
+    {
+      "id": "workable:payabl:8199290120",
+      "title": "QA Engineer (APM)",
+      "company": "payabl.",
+      "companySlug": "payabl",
+      "location": "Lisbon, Portugal",
+      "url": "https://apply.workable.com/j/8199290120",
+      "source": "workable",
+      "category": "qa",
+      "isCyprus": true,
+      "postedDate": "2026-08-18",
+      "scrapedAt": "2026-09-16T08:53:18.179Z"
+    },
+    {
+      "id": "workable:payabl:FA03F651D3",
+      "title": "Senior Business Analyst",
+      "company": "payabl.",
+      "companySlug": "payabl",
+      "location": "Poland",
+      "url": "https://apply.workable.com/j/FA03F651D3",
+      "source": "workable",
+      "category": "product",
+      "isCyprus": true,
+      "postedDate": "2026-08-17",
+      "scrapedAt": "2026-09-16T08:53:18.179Z"
+    },
+    {
+      "id": "djinni:846420",
+      "title": "Junior Business Analyst (Account Management and Sales team)",
+      "company": "Solidgate",
+      "companySlug": "solidgate",
+      "location": "Office Work · Ukraine (Kyiv, Lviv) · English - B2 · Fintech",
+      "url": "https://djinni.co/jobs/846420-junior-business-analyst-account-management-an/",
+      "source": "djinni",
+      "category": "product",
+      "isCyprus": true,
+      "postedDate": null,
+      "scrapedAt": "2026-09-16T08:53:26.044Z"
+    },
+    {
+      "id": "djinni:843255",
+      "title": "Senior Product Owner (Acquiring, Open Banking)",
+      "company": "PayDo",
+      "companySlug": "paydo",
+      "location": "Full Remote · EU · 3 years of experience · English - C1 · Fintech",
+      "url": "https://djinni.co/jobs/843255-senior-product-owner-acquiring-open-banking/",
+      "source": "djinni",
+      "category": "product",
+      "isCyprus": false,
+      "postedDate": null,
+      "scrapedAt": "2026-09-16T08:53:23.654Z"
+    },
+    {
+      "id": "greenhouse:whitetech:4338179101",
+      "title": "Business Analyst",
+      "company": "WhiteTech",
+      "companySlug": "whitetech",
+      "location": "Remote",
+      "url": "https://job-boards.eu.greenhouse.io/whitetech/jobs/4338179101",
+      "source": "greenhouse",
+      "category": "product",
+      "isCyprus": false,
+      "postedDate": "2026-08-24T10:45:03-04:00",
+      "scrapedAt": "2026-09-16T08:53:19.230Z"
+    },
+    {
+      "id": "greenhouse:whitetech:4940539101",
+      "title": "Business Analyst (middle/senior)",
+      "company": "WhiteTech",
+      "companySlug": "whitetech",
+      "location": "Remote",
+      "url": "https://job-boards.eu.greenhouse.io/whitetech/jobs/4940539101",
+      "source": "greenhouse",
+      "category": "product",
+      "isCyprus": false,
+      "postedDate": "2026-08-24T10:46:32-04:00",
+      "scrapedAt": "2026-09-16T08:53:19.230Z"
+    },
+    {
+      "id": "greenhouse:whitetech:4344905101",
+      "title": "QA Engineer",
+      "company": "WhiteTech",
+      "companySlug": "whitetech",
+      "location": "Remote",
+      "url": "https://job-boards.eu.greenhouse.io/whitetech/jobs/4344905101",
+      "source": "greenhouse",
+      "category": "qa",
+      "isCyprus": false,
+      "postedDate": "2026-08-24T10:49:12-04:00",
+      "scrapedAt": "2026-09-16T08:53:19.230Z"
+    },
+    {
+      "id": "greenhouse:whitetech:4948682101",
+      "title": "Senior Product Manager",
+      "company": "WhiteTech",
+      "companySlug": "whitetech",
+      "location": "Remote",
+      "url": "https://job-boards.eu.greenhouse.io/whitetech/jobs/4948682101",
+      "source": "greenhouse",
+      "category": "product",
+      "isCyprus": false,
+      "postedDate": "2026-08-24T10:48:17-04:00",
+      "scrapedAt": "2026-09-16T08:53:19.230Z"
+    }
+  ]
+}

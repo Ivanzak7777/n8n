@@ -1,0 +1,302 @@
+[
+  {
+    "slug": "solidgate",
+    "name": "Solidgate",
+    "aliases": ["Solidgate"],
+    "careersUrl": "https://solidgate.com/careers/",
+    "ats": "custom",
+    "atsSlug": null,
+    "hqCountry": "Ukraine",
+    "isCyprus": true
+  },
+  {
+    "slug": "paydo",
+    "name": "PayDo",
+    "aliases": ["PayDo"],
+    "careersUrl": "https://paydo.com/careers",
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": "UK",
+    "isCyprus": false
+  },
+  {
+    "slug": "payop",
+    "name": "Payop",
+    "aliases": ["Payop"],
+    "careersUrl": "https://payop.com/careers/",
+    "ats": "custom",
+    "atsSlug": null,
+    "hqCountry": "Canada",
+    "isCyprus": false
+  },
+  {
+    "slug": "payabl",
+    "name": "payabl.",
+    "aliases": ["payabl", "payabl.", "Payabl"],
+    "careersUrl": "https://payabl.com/careers",
+    "ats": "workable",
+    "atsSlug": "payabl",
+    "hqCountry": "Cyprus",
+    "isCyprus": true
+  },
+  {
+    "slug": "ecommpay",
+    "name": "Ecommpay",
+    "aliases": ["Ecommpay", "ECOMMPAY"],
+    "careersUrl": "https://ecommpay.com/careers/",
+    "ats": "teamtailor",
+    "atsSlug": "ecommpay",
+    "hqCountry": "UK",
+    "isCyprus": true
+  },
+  {
+    "slug": "payok",
+    "name": "PAYOK",
+    "aliases": ["PAYOK", "Payok"],
+    "careersUrl": null,
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": null,
+    "isCyprus": false
+  },
+  {
+    "slug": "vialet",
+    "name": "VIALET",
+    "aliases": ["VIALET", "Vialet"],
+    "careersUrl": "https://vialet.eu/career/",
+    "ats": "custom",
+    "atsSlug": null,
+    "hqCountry": "Lithuania",
+    "isCyprus": false
+  },
+  {
+    "slug": "concryt",
+    "name": "CONCRYT",
+    "aliases": ["CONCRYT", "Concryt"],
+    "careersUrl": "https://concryt.io/careers",
+    "ats": "custom",
+    "atsSlug": null,
+    "hqCountry": null,
+    "isCyprus": false
+  },
+  {
+    "slug": "spayz",
+    "name": "SPAYZ.io",
+    "aliases": ["SPAYZ.io", "SPAYZ", "Spayz"],
+    "careersUrl": "https://www.spayz.io/careers",
+    "ats": "custom",
+    "atsSlug": null,
+    "hqCountry": "Cyprus",
+    "isCyprus": true
+  },
+  {
+    "slug": "paysafe",
+    "name": "Paysafe",
+    "aliases": ["Paysafe"],
+    "careersUrl": "https://jobs.paysafe.com/",
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": "UK",
+    "isCyprus": false
+  },
+  {
+    "slug": "colibrix-one",
+    "name": "COLIBRIX ONE",
+    "aliases": ["COLIBRIX ONE", "Colibrix One", "Colibrix"],
+    "careersUrl": "https://colibrixone.com/careers",
+    "ats": "workable",
+    "atsSlug": "colibrix-one",
+    "hqCountry": "UK",
+    "isCyprus": false
+  },
+  {
+    "slug": "fyst",
+    "name": "FYST",
+    "aliases": ["FYST"],
+    "careersUrl": "https://fyst.com/careers",
+    "ats": "custom",
+    "atsSlug": null,
+    "hqCountry": "Latvia",
+    "isCyprus": false
+  },
+  {
+    "slug": "payomatix",
+    "name": "Payomatix Technologies",
+    "aliases": ["Payomatix Technologies", "Payomatix"],
+    "careersUrl": "https://payomatix.com/careers",
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": "India",
+    "isCyprus": false
+  },
+  {
+    "slug": "thedex",
+    "name": "Thedex",
+    "aliases": ["Thedex"],
+    "careersUrl": null,
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": null,
+    "isCyprus": false
+  },
+  {
+    "slug": "tranzzo",
+    "name": "Tranzzo",
+    "aliases": ["Tranzzo"],
+    "careersUrl": "https://tranzzo.com/vacancies",
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": "Ukraine",
+    "isCyprus": false
+  },
+  {
+    "slug": "whitetech",
+    "name": "WhiteTech",
+    "aliases": ["WhiteTech", "White Tech"],
+    "careersUrl": "https://whitetech.com/careers",
+    "ats": "greenhouse",
+    "atsSlug": "whitetech",
+    "hqCountry": "Estonia",
+    "isCyprus": false
+  },
+  {
+    "slug": "xpate",
+    "name": "xpate",
+    "aliases": ["xpate", "Xpate"],
+    "careersUrl": "https://xpate.com/career",
+    "ats": "personio",
+    "atsSlug": null,
+    "hqCountry": "Latvia",
+    "isCyprus": false
+  },
+  {
+    "slug": "finteqhub",
+    "name": "FinteqHub",
+    "aliases": ["FinteqHub", "Finteqhub"],
+    "careersUrl": "https://finteqhub.teamtailor.com/",
+    "ats": "teamtailor",
+    "atsSlug": "finteqhub",
+    "hqCountry": "Lithuania",
+    "isCyprus": false
+  },
+  {
+    "slug": "bill-line",
+    "name": "bill_line",
+    "aliases": ["bill_line", "Bill Line", "billline"],
+    "careersUrl": "https://billline.net/about-en/",
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": "Ukraine",
+    "isCyprus": false
+  },
+  {
+    "slug": "flexifai",
+    "name": "FLEXIFAI",
+    "aliases": ["FLEXIFAI", "Flexifai"],
+    "careersUrl": "https://jobs.dou.ua/companies/flexifai/vacancies/",
+    "ats": "custom",
+    "atsSlug": null,
+    "hqCountry": "Cyprus",
+    "isCyprus": true
+  },
+  {
+    "slug": "snelpay",
+    "name": "SnelPay",
+    "aliases": ["SnelPay", "Snelpay"],
+    "careersUrl": null,
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": null,
+    "isCyprus": false
+  },
+  {
+    "slug": "betatransfer",
+    "name": "Betatransfer",
+    "aliases": ["Betatransfer", "BetaTransfer"],
+    "careersUrl": "https://betatransfer.io/",
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": "Estonia",
+    "isCyprus": false
+  },
+  {
+    "slug": "dalapay",
+    "name": "DalaPay",
+    "aliases": ["DalaPay", "Dalapay"],
+    "careersUrl": "https://dalapay.com/",
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": null,
+    "isCyprus": false
+  },
+  {
+    "slug": "finera",
+    "name": "finera.",
+    "aliases": ["finera.", "finera", "Finera"],
+    "careersUrl": "https://www.finera.com/careers",
+    "ats": "hibob",
+    "atsSlug": null,
+    "hqCountry": "Cyprus",
+    "isCyprus": true
+  },
+  {
+    "slug": "transact365",
+    "name": "Transact365",
+    "aliases": ["Transact365", "Transact 365"],
+    "careersUrl": "https://www.transact365.com/",
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": "UK",
+    "isCyprus": false
+  },
+  {
+    "slug": "praxis",
+    "name": "Praxis",
+    "aliases": ["Praxis"],
+    "careersUrl": "https://praxis.tech/careers",
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": "Cyprus",
+    "isCyprus": true
+  },
+  {
+    "slug": "paynt",
+    "name": "Paynt",
+    "aliases": ["Paynt"],
+    "careersUrl": "https://paynt.com/resources/careers/",
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": "Latvia",
+    "isCyprus": false
+  },
+  {
+    "slug": "payplus",
+    "name": "PayPlus",
+    "aliases": ["PayPlus", "Pay Plus"],
+    "careersUrl": "https://payplus.com/careers",
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": "Israel",
+    "isCyprus": false
+  },
+  {
+    "slug": "smilepayz",
+    "name": "Smilepayz",
+    "aliases": ["Smilepayz", "SmilePayz"],
+    "careersUrl": "https://www.smilepayz.com/",
+    "ats": "unknown",
+    "atsSlug": null,
+    "hqCountry": "Malaysia",
+    "isCyprus": false
+  },
+  {
+    "slug": "gr8tech",
+    "name": "GR8 Tech",
+    "aliases": ["GR8 Tech", "GR8Tech", "GR8"],
+    "careersUrl": "https://gr8.tech/vacancies/",
+    "ats": "greenhouse",
+    "atsSlug": "gr8tech",
+    "hqCountry": "Cyprus",
+    "isCyprus": true
+  }
+]

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Payments Jobs Board — QA &amp; Product у платіжних компаніях</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-inner">
+      <h1>Payments Jobs Board</h1>
+      <p class="subtitle">Відкриті вакансії QA та Product у платіжних/fintech компаніях. Оновлюється щодня.</p>
+      <p class="updated-at" id="updated-at">Завантаження...</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <div class="control-row">
+        <input type="search" id="search-input" placeholder="Пошук за назвою вакансії..." />
+      </div>
+
+      <div class="control-row">
+        <span class="control-label">Позиція:</span>
+        <div class="pill-group" id="position-filter">
+          <button class="pill active" data-value="all">Всі</button>
+          <button class="pill" data-value="qa">QA</button>
+          <button class="pill" data-value="product">Product</button>
+        </div>
+      </div>
+
+      <div class="control-row">
+        <span class="control-label">Компанії:</span>
+        <button class="pill pill-reset" id="reset-companies">Скинути</button>
+        <div class="pill-group" id="company-filter"></div>
+      </div>
+    </section>
+
+    <section class="results-meta">
+      <span id="results-count"></span>
+      <span id="source-errors-note" class="source-errors-note"></span>
+    </section>
+
+    <section id="cyprus-section" class="job-section">
+      <h2 class="section-title">🇨🇾 Компанії з Кіпру</h2>
+      <div class="job-list" id="cyprus-jobs"></div>
+    </section>
+
+    <section id="other-section" class="job-section">
+      <h2 class="section-title">Інші компанії</h2>
+      <div class="job-list" id="other-jobs"></div>
+    </section>
+
+    <p class="empty-state" id="empty-state" hidden>Нічого не знайдено за цими фільтрами.</p>
+  </main>
+
+  <footer class="page-footer">
+    <p>Джерела: Djinni.co, офіційні career-сторінки компаній, Indeed (best-effort). Дані оновлюються раз на день через GitHub Actions.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
