@@ -3,18 +3,23 @@ const DATA_URLS = [
   'https://raw.githubusercontent.com/Ivanzak7777/n8n/master/data/jobs-indeed.json',
 ];
 
+const VISITS_NAMESPACE = 'payments-jobs-board-ivanzak7777';
+
 const state = {
   jobs: [],
   position: 'all',
+  level: 'all',
   companies: new Set(),
   search: '',
 };
 
 const els = {
   updatedAt: document.getElementById('updated-at'),
+  visitsCounter: document.getElementById('visits-counter'),
   resultsCount: document.getElementById('results-count'),
   sourceErrorsNote: document.getElementById('source-errors-note'),
   positionFilter: document.getElementById('position-filter'),
+  levelFilter: document.getElementById('level-filter'),
   companyFilter: document.getElementById('company-filter'),
   resetCompanies: document.getElementById('reset-companies'),
   searchInput: document.getElementById('search-input'),
@@ -31,6 +36,19 @@ const els = {
 };
 
 const CATEGORY_LABEL = { qa: 'QA', product: 'Product' };
+const LEVEL_LABEL = { junior: 'Junior', middle: 'Middle', senior: 'Senior' };
+
+async function fetchVisitsToday() {
+  const today = new Date().toISOString().slice(0, 10);
+  try {
+    const res = await fetch(`https://abacus.jasoncameron.dev/hit/${VISITS_NAMESPACE}/${today}`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    return data.value ?? null;
+  } catch {
+    return null;
+  }
+}
 
 function formatDate(iso) {
   if (!iso) return '';
@@ -127,6 +145,13 @@ function jobCard(job) {
     meta.appendChild(cyBadge);
   }
 
+  for (const level of job.levels || []) {
+    const levelBadge = document.createElement('span');
+    levelBadge.className = 'badge badge-level';
+    levelBadge.textContent = LEVEL_LABEL[level] || level;
+    meta.appendChild(levelBadge);
+  }
+
   if (job.location) {
     const loc = document.createElement('span');
     loc.textContent = job.location;
@@ -145,11 +170,20 @@ function jobCard(job) {
   }
 
   card.appendChild(meta);
+
+  if (job.salaryEstimate) {
+    const salary = document.createElement('div');
+    salary.className = 'job-salary';
+    salary.textContent = `≈ ${job.salaryEstimate} (оцінка)`;
+    card.appendChild(salary);
+  }
+
   return card;
 }
 
 function matchesFilters(job) {
   if (state.position !== 'all' && job.category !== state.position) return false;
+  if (state.level !== 'all' && !(job.levels || []).includes(state.level)) return false;
   if (state.companies.size > 0 && !state.companies.has(job.company)) return false;
   if (state.search) {
     const haystack = `${job.title} ${job.company}`.toLowerCase();
@@ -186,6 +220,15 @@ function bindStaticControls() {
     render();
   });
 
+  els.levelFilter.addEventListener('click', (e) => {
+    const btn = e.target.closest('.pill');
+    if (!btn) return;
+    state.level = btn.dataset.value;
+    [...els.levelFilter.children].forEach((child) => child.classList.remove('active'));
+    btn.classList.add('active');
+    render();
+  });
+
   els.resetCompanies.addEventListener('click', () => {
     state.companies.clear();
     [...els.companyFilter.children].forEach((child) => child.classList.remove('active'));
@@ -204,6 +247,12 @@ function bindStaticControls() {
 
 async function init() {
   bindStaticControls();
+
+  fetchVisitsToday().then((count) => {
+    if (count != null) {
+      els.visitsCounter.textContent = `Переглядів сьогодні: ${count}`;
+    }
+  });
 
   try {
     const results = await Promise.all(DATA_URLS.map(fetchJobData));

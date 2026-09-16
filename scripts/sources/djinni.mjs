@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio';
 import { categorize } from '../categorize.mjs';
+import { detectLevels, detectRegionBucket, estimateSalary } from '../enrich.mjs';
 import { matchCompany, makeJobId, politeDelay } from '../util.mjs';
 
 const KEYWORDS = ['QA', 'QA Automation', 'Product Manager', 'Product Owner', 'Business Analyst'];
@@ -65,6 +66,9 @@ export async function scrapeDjinni(companies) {
           const category = categorize(job.title);
           if (category === 'other') continue;
 
+          const levels = detectLevels(job.title);
+          const region = detectRegionBucket(job.location, company.hqCountry);
+
           results.push({
             id: makeJobId('djinni', job.rawId),
             title: job.title,
@@ -74,6 +78,9 @@ export async function scrapeDjinni(companies) {
             url: new URL(job.href, 'https://djinni.co').toString(),
             source: 'djinni',
             category,
+            levels,
+            region,
+            salaryEstimate: estimateSalary(category, levels, region),
             isCyprus: !!company.isCyprus,
             postedDate: null,
             scrapedAt: new Date().toISOString(),

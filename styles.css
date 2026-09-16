@@ -71,11 +71,25 @@ body {
   font-size: 15px;
 }
 
-.updated-at {
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 14px;
   margin: 0 0 20px;
+}
+
+.updated-at {
+  margin: 0;
   font-size: 13px;
   color: var(--accent);
   font-weight: 500;
+}
+
+.visits-counter {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-dim);
 }
 
 .stats-row {
@@ -297,6 +311,12 @@ body {
   font-weight: 600;
 }
 
+.badge-level {
+  background: var(--surface-2);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+}
+
 .job-meta {
   display: flex;
   flex-wrap: wrap;
@@ -308,6 +328,13 @@ body {
 .job-meta .company-name {
   color: var(--text);
   font-weight: 600;
+}
+
+.job-salary {
+  font-size: 12.5px;
+  color: var(--qa);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
 }
 
 .skeleton-card {

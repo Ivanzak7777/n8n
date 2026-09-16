@@ -1,4 +1,5 @@
 import { categorize } from '../categorize.mjs';
+import { detectLevels, detectRegionBucket, estimateSalary } from '../enrich.mjs';
 import { makeJobId } from '../util.mjs';
 
 const HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; PaymentsJobBoardBot/1.0)' };
@@ -88,6 +89,10 @@ export async function scrapeAts(companies) {
       for (const job of rawJobs) {
         const category = categorize(job.title);
         if (category === 'other') continue;
+
+        const levels = detectLevels(job.title);
+        const region = detectRegionBucket(job.location, company.hqCountry);
+
         results.push({
           id: makeJobId(`${company.ats}:${company.slug}`, job.rawId),
           title: job.title,
@@ -97,6 +102,9 @@ export async function scrapeAts(companies) {
           url: job.url,
           source: company.ats,
           category,
+          levels,
+          region,
+          salaryEstimate: estimateSalary(category, levels, region),
           isCyprus: !!company.isCyprus,
           postedDate: job.postedDate,
           scrapedAt: new Date().toISOString(),

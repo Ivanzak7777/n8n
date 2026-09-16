@@ -17,8 +17,11 @@
         <span class="brand-mark">💳</span>
         <h1>Payments Jobs Board</h1>
       </div>
-      <p class="subtitle">Відкриті вакансії QA та Product у payments/fintech компаніях. Оновлюється щодня.</p>
-      <p class="updated-at" id="updated-at">Завантаження даних...</p>
+      <p class="subtitle">Відкриті вакансії QA та Product у payments/fintech компаніях. Оновлюється кожні 4 години.</p>
+      <div class="meta-row">
+        <p class="updated-at" id="updated-at">Завантаження даних...</p>
+        <p class="visits-counter" id="visits-counter"></p>
+      </div>
 
       <div class="stats-row" id="stats-row">
         <div class="stat-tile">
@@ -57,6 +60,16 @@
       </div>
 
       <div class="control-row">
+        <span class="control-label">Рівень</span>
+        <div class="pill-group" id="level-filter">
+          <button class="pill active" data-value="all">Всі</button>
+          <button class="pill" data-value="junior">Junior</button>
+          <button class="pill" data-value="middle">Middle</button>
+          <button class="pill" data-value="senior">Senior</button>
+        </div>
+      </div>
+
+      <div class="control-row">
         <span class="control-label">Компанії</span>
         <button class="pill pill-reset" id="reset-companies">Скинути</button>
         <div class="pill-group" id="company-filter"></div>
@@ -88,7 +101,7 @@
   </main>
 
   <footer class="page-footer">
-    <p>Джерела: Djinni.co, офіційні career-сторінки компаній (Greenhouse/Lever/Teamtailor/Workable), Indeed (через офіційний connector). Дані оновлюються раз на день.</p>
+    <p>Джерела: Djinni.co, офіційні career-сторінки компаній (Greenhouse/Lever/Teamtailor/Workable), Indeed (через офіційний connector, оновлюється вручну). Дані оновлюються кожні 4 години. Вилка ЗП — орієнтовна оцінка за рівнем і регіоном, не з тексту вакансії.</p>
   </footer>
 
   <script src="app.js"></script>
