@@ -4,6 +4,23 @@ const DATA_URLS = [
 ];
 
 const VISITS_NAMESPACE = 'payments-jobs-board-ivanzak7777';
+const SEEN_STORAGE_KEY = 'pjb_seen_job_ids';
+
+function loadSeenIds() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(SEEN_STORAGE_KEY) || '[]'));
+  } catch {
+    return new Set();
+  }
+}
+
+function saveSeenIds(ids) {
+  try {
+    localStorage.setItem(SEEN_STORAGE_KEY, JSON.stringify([...ids]));
+  } catch {
+    // localStorage unavailable (private mode, blocked storage) - skip silently
+  }
+}
 
 const state = {
   jobs: [],
@@ -110,7 +127,7 @@ function updateStats() {
 
 function jobCard(job) {
   const card = document.createElement('div');
-  card.className = 'job-card';
+  card.className = job.isNew ? 'job-card job-card-new' : 'job-card';
 
   const top = document.createElement('div');
   top.className = 'job-card-top';
@@ -122,6 +139,13 @@ function jobCard(job) {
   link.rel = 'noopener noreferrer';
   link.textContent = job.title;
   top.appendChild(link);
+
+  if (job.isNew) {
+    const newBadge = document.createElement('span');
+    newBadge.className = 'badge badge-new';
+    newBadge.textContent = 'NEW';
+    top.appendChild(newBadge);
+  }
 
   const badge = document.createElement('span');
   badge.className = `badge badge-${job.category}`;
@@ -207,7 +231,11 @@ function render() {
   els.otherSection.hidden = otherJobs.length === 0;
 
   els.emptyState.hidden = filtered.length !== 0;
-  els.resultsCount.textContent = `Знайдено вакансій: ${filtered.length}`;
+  const newCount = filtered.filter((job) => job.isNew).length;
+  els.resultsCount.textContent =
+    newCount > 0
+      ? `Знайдено вакансій: ${filtered.length} (🆕 нових: ${newCount})`
+      : `Знайдено вакансій: ${filtered.length}`;
 }
 
 function bindStaticControls() {
@@ -261,6 +289,13 @@ async function init() {
     const byId = new Map();
     for (const job of allJobs) byId.set(job.id, job);
     state.jobs = [...byId.values()];
+
+    const seenIds = loadSeenIds();
+    const isFirstVisit = seenIds.size === 0;
+    for (const job of state.jobs) {
+      job.isNew = !isFirstVisit && !seenIds.has(job.id);
+    }
+    saveSeenIds(new Set([...seenIds, ...state.jobs.map((job) => job.id)]));
 
     const timestamps = results.map((data) => data.updatedAt).filter(Boolean).sort();
     const latest = timestamps[timestamps.length - 1];

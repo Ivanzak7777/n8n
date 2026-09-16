@@ -14,6 +14,7 @@
   --qa-soft: rgba(56, 224, 168, 0.14);
   --product: #c98cff;
   --product-soft: rgba(201, 140, 255, 0.14);
+  --new: #ff7a7a;
   --radius: 14px;
   --radius-sm: 10px;
   --shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.5);
@@ -315,6 +316,15 @@ body {
   background: var(--surface-2);
   color: var(--text-dim);
   border: 1px solid var(--border);
+}
+
+.badge-new {
+  background: var(--new);
+  color: #1a0a0a;
+}
+
+.job-card-new {
+  border-color: var(--new);
 }
 
 .job-meta {
