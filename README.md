@@ -1,24 +1,32 @@
 # Payments Jobs Board
 
 Статичний сайт, що збирає відкриті QA та Product вакансії у ~30 payment/fintech компаніях
-(Solidgate, Ecommpay, payabl., WhiteTech, Paysafe, Praxis, GR8 Tech тощо) з фільтрами по позиції
-та компанії. Компанії з Кіпру показуються першими.
+(Solidgate, Ecommpay, payabl., WhiteTech, Paysafe, Praxis, GR8 Tech тощо) з фільтрами по позиції,
+рівню (Junior/Middle/Senior) та компанії, орієнтовною вилкою ЗП за регіоном. Компанії з Кіпру
+показуються першими.
 
 Живе на claude.ai (миттєво, без налаштувань): https://claude.ai/artifact/CSdzAzEyCjiPYwZzudNeLZ
 
 ## Як це працює
 
-- `scripts/scrape.mjs` — щодня збирає вакансії з Djinni.co та офіційних career-сторінок (ATS API:
-  Greenhouse, Lever, Teamtailor, Workable), пише результат у `data/jobs.json`.
-- `.github/workflows/scrape-jobs.yml` — GitHub Actions, що запускає скрапер щодня о 06:00 UTC і
+- `scripts/scrape.mjs` — кожні 4 години збирає вакансії з Djinni.co та офіційних career-сторінок
+  (ATS API: Greenhouse, Lever, Teamtailor, Workable), пише результат у `data/jobs.json`.
+- `scripts/enrich.mjs` — для кожної вакансії визначає рівень (`levels`, за ключовими словами в
+  назві — вакансія може мати кілька, напр. "Middle/Senior"), регіон (`region`: `ua`/`eu`/`uk`/`us`/
+  `other`, за локацією або країною компанії) і рахує орієнтовну вилку ЗП (`salaryEstimate`,
+  $/міс) — базові цифри з опитування DOU по QA (Junior ~$890, Middle ~$1900, Senior ~$3200),
+  помножені на регіональний коефіцієнт. Це **оцінка, не дані з тексту вакансії** — на сайті це
+  явно підписано.
+- `.github/workflows/scrape-jobs.yml` — GitHub Actions, що запускає скрапер кожні 4 години і
   комітить оновлений `data/jobs.json`.
 - `data/jobs-indeed.json` — окремий файл з тим самим набором полів, який оновлює **не** GitHub
-  Actions, а щоденна Claude-рутина через офіційний Indeed MCP-конектор (пряме HTTP-скрапіння
+  Actions, а вручну, на запит, через офіційний Indeed MCP-конектор (пряме HTTP-скрапіння
   indeed.com блокується їхнім анти-бот захистом — підтверджено, HTTP 403 — тож легальний шлях
   тільки через конектор). Дивись розділ нижче.
 - `index.html` / `styles.css` / `app.js` — статичний фронтенд без збірки. Фетчить дані напряму з
   `raw.githubusercontent.com` (абсолютні URL на `master`), тому ті самі три файли однаково
-  працюють і на GitHub Pages, і як claude.ai Artifact.
+  працюють і на GitHub Pages, і як claude.ai Artifact. Лічильник переглядів (у шапці сайту, скидається щодня) —
+  через безкоштовний `abacus.jasoncameron.dev`, спільний для обох дзеркал.
 
 Кожне джерело обгорнуте окремо: якщо одне джерело падає, інші все одно відпрацьовують, і сайт не
 втрачає вже зібрані дані.
@@ -66,11 +74,8 @@ python3 -m http.server # відкрити http://localhost:8000
 `workable` / `ashby` / `custom` / `unknown`), `atsSlug` (якщо ATS підтримується напряму),
 `hqCountry`, `isCyprus`.
 
-## Увімкнути GitHub Pages (одноразово, вручну)
+## GitHub Pages
 
-Сайт вже злитий у `master` (гілка за замовчуванням), тож щоденний cron GitHub Actions вже активний
-сам по собі. Лишається тільки увімкнути роздачу сторінки:
-
-1. Settings → Pages → Source: **Deploy from a branch**.
-2. Branch: `master`, folder — `/ (root)`.
-3. Збережіть. Сайт з'явиться за адресою `https://<username>.github.io/<repo>/`.
+Сайт живий: https://ivanzak7777.github.io/n8n/ (Source: Deploy from a branch, `master`, `/ root`).
+Оновлюється автоматично при кожному коміті в `master`, зокрема після кожного запуску скрапера
+(раз на 4 години).
