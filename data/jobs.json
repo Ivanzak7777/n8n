@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-18T18:53:34.482Z",
-  "jobCount": 8,
+  "updatedAt": "2026-09-18T22:20:02.177Z",
+  "jobCount": 9,
   "sourceErrors": [],
   "jobs": [
     {
@@ -17,7 +17,23 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-09-18T07:53:23-04:00",
-      "scrapedAt": "2026-09-18T18:53:28.486Z"
+      "scrapedAt": "2026-09-18T22:19:57.069Z"
+    },
+    {
+      "id": "dou:373919",
+      "title": "Manual QA Engineer for CRM & Data Team",
+      "company": "GR8 Tech",
+      "companySlug": "gr8tech",
+      "location": "за кордоном, віддалено",
+      "url": "https://jobs.dou.ua/companies/gr8-tech/vacancies/373919/",
+      "source": "dou",
+      "category": "qa",
+      "levels": [],
+      "region": "eu",
+      "salaryEstimate": "$900–$5,200/міс",
+      "isCyprus": true,
+      "postedDate": null,
+      "scrapedAt": "2026-09-18T22:19:54.391Z"
     },
     {
       "id": "workable:payabl:8199290120",
@@ -33,7 +49,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-08-18",
-      "scrapedAt": "2026-09-18T18:53:26.935Z"
+      "scrapedAt": "2026-09-18T22:19:55.150Z"
     },
     {
       "id": "workable:payabl:FA03F651D3",
@@ -51,7 +67,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": true,
       "postedDate": "2026-08-17",
-      "scrapedAt": "2026-09-18T18:53:26.935Z"
+      "scrapedAt": "2026-09-18T22:19:55.150Z"
     },
     {
       "id": "djinni:846420",
@@ -69,7 +85,7 @@
       "salaryEstimate": "$700–$1,100/міс",
       "isCyprus": true,
       "postedDate": null,
-      "scrapedAt": "2026-09-18T18:53:34.080Z"
+      "scrapedAt": "2026-09-18T22:20:01.776Z"
     },
     {
       "id": "greenhouse:whitetech:4338179101",
@@ -85,7 +101,7 @@
       "salaryEstimate": "$900–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-08-24T10:45:03-04:00",
-      "scrapedAt": "2026-09-18T18:53:27.759Z"
+      "scrapedAt": "2026-09-18T22:19:56.319Z"
     },
     {
       "id": "greenhouse:whitetech:4940539101",
@@ -104,7 +120,7 @@
       "salaryEstimate": "$2,300–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-08-24T10:46:32-04:00",
-      "scrapedAt": "2026-09-18T18:53:27.759Z"
+      "scrapedAt": "2026-09-18T22:19:56.319Z"
     },
     {
       "id": "greenhouse:whitetech:4344905101",
@@ -120,7 +136,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-08-24T10:49:12-04:00",
-      "scrapedAt": "2026-09-18T18:53:27.759Z"
+      "scrapedAt": "2026-09-18T22:19:56.319Z"
     },
     {
       "id": "greenhouse:whitetech:4948682101",
@@ -138,7 +154,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-08-24T10:48:17-04:00",
-      "scrapedAt": "2026-09-18T18:53:27.759Z"
+      "scrapedAt": "2026-09-18T22:19:56.319Z"
     }
   ]
 }
