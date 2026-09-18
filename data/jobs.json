@@ -1,7 +1,9 @@
 {
-  "updatedAt": "2026-09-17T22:41:15.406Z",
-  "jobCount": 7,
-  "sourceErrors": [],
+  "updatedAt": "2026-09-18T03:22:53.920Z",
+  "jobCount": 3,
+  "sourceErrors": [
+    "ats:whitetech: fetch failed"
+  ],
   "jobs": [
     {
       "id": "workable:payabl:8199290120",
@@ -17,7 +19,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-08-18",
-      "scrapedAt": "2026-09-17T22:41:07.572Z"
+      "scrapedAt": "2026-09-18T03:22:46.241Z"
     },
     {
       "id": "workable:payabl:FA03F651D3",
@@ -35,7 +37,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": true,
       "postedDate": "2026-08-17",
-      "scrapedAt": "2026-09-17T22:41:07.573Z"
+      "scrapedAt": "2026-09-18T03:22:46.241Z"
     },
     {
       "id": "djinni:846420",
@@ -53,76 +55,7 @@
       "salaryEstimate": "$700–$1,100/міс",
       "isCyprus": true,
       "postedDate": null,
-      "scrapedAt": "2026-09-17T22:41:15.006Z"
-    },
-    {
-      "id": "greenhouse:whitetech:4338179101",
-      "title": "Business Analyst",
-      "company": "WhiteTech",
-      "companySlug": "whitetech",
-      "location": "Remote",
-      "url": "https://job-boards.eu.greenhouse.io/whitetech/jobs/4338179101",
-      "source": "greenhouse",
-      "category": "product",
-      "levels": [],
-      "region": "eu",
-      "salaryEstimate": "$900–$6,500/міс",
-      "isCyprus": false,
-      "postedDate": "2026-08-24T10:45:03-04:00",
-      "scrapedAt": "2026-09-17T22:41:08.277Z"
-    },
-    {
-      "id": "greenhouse:whitetech:4940539101",
-      "title": "Business Analyst (middle/senior)",
-      "company": "WhiteTech",
-      "companySlug": "whitetech",
-      "location": "Remote",
-      "url": "https://job-boards.eu.greenhouse.io/whitetech/jobs/4940539101",
-      "source": "greenhouse",
-      "category": "product",
-      "levels": [
-        "middle",
-        "senior"
-      ],
-      "region": "eu",
-      "salaryEstimate": "$2,300–$6,500/міс",
-      "isCyprus": false,
-      "postedDate": "2026-08-24T10:46:32-04:00",
-      "scrapedAt": "2026-09-17T22:41:08.277Z"
-    },
-    {
-      "id": "greenhouse:whitetech:4344905101",
-      "title": "QA Engineer",
-      "company": "WhiteTech",
-      "companySlug": "whitetech",
-      "location": "Remote",
-      "url": "https://job-boards.eu.greenhouse.io/whitetech/jobs/4344905101",
-      "source": "greenhouse",
-      "category": "qa",
-      "levels": [],
-      "region": "eu",
-      "salaryEstimate": "$900–$5,200/міс",
-      "isCyprus": false,
-      "postedDate": "2026-08-24T10:49:12-04:00",
-      "scrapedAt": "2026-09-17T22:41:08.277Z"
-    },
-    {
-      "id": "greenhouse:whitetech:4948682101",
-      "title": "Senior Product Manager",
-      "company": "WhiteTech",
-      "companySlug": "whitetech",
-      "location": "Remote",
-      "url": "https://job-boards.eu.greenhouse.io/whitetech/jobs/4948682101",
-      "source": "greenhouse",
-      "category": "product",
-      "levels": [
-        "senior"
-      ],
-      "region": "eu",
-      "salaryEstimate": "$4,200–$6,500/міс",
-      "isCyprus": false,
-      "postedDate": "2026-08-24T10:48:17-04:00",
-      "scrapedAt": "2026-09-17T22:41:08.277Z"
+      "scrapedAt": "2026-09-18T03:22:53.519Z"
     }
   ]
 }
