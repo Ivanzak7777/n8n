@@ -1,6 +1,6 @@
 import { categorize } from '../categorize.mjs';
 import { detectLevels, detectRegionBucket, estimateSalary } from '../enrich.mjs';
-import { matchCompany, makeJobId } from '../util.mjs';
+import { fetchWithRetry, matchCompany, makeJobId } from '../util.mjs';
 
 const API_URL = 'https://remoteok.com/api';
 const HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; PaymentsJobBoardBot/1.0)' };
@@ -10,7 +10,7 @@ export async function scrapeRemoteOk(companies) {
   const errors = [];
 
   try {
-    const res = await fetch(API_URL, { headers: HEADERS });
+    const res = await fetchWithRetry(API_URL, { headers: HEADERS });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     const jobs = Array.isArray(data) ? data.slice(1) : []; // first entry is RemoteOK's own legal notice

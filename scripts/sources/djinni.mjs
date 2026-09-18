@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio';
 import { categorize } from '../categorize.mjs';
 import { detectLevels, detectRegionBucket, estimateSalary } from '../enrich.mjs';
-import { matchCompany, makeJobId, politeDelay } from '../util.mjs';
+import { fetchWithRetry, matchCompany, makeJobId, politeDelay } from '../util.mjs';
 
 const KEYWORDS = ['QA', 'QA Automation', 'Product Manager', 'Product Owner', 'Business Analyst'];
 const MAX_PAGES_PER_KEYWORD = 2;
@@ -10,7 +10,7 @@ const HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; PaymentsJobBoardBot/1.
 
 async function fetchPage(keyword, page) {
   const url = `${BASE_URL}?primary_keyword=${encodeURIComponent(keyword)}&page=${page}`;
-  const res = await fetch(url, { headers: HEADERS });
+  const res = await fetchWithRetry(url, { headers: HEADERS });
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
   return res.text();
 }

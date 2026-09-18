@@ -23,3 +23,16 @@ export function makeJobId(source, rawId) {
 export async function politeDelay(ms = 400) {
   await new Promise((resolve) => setTimeout(resolve, ms));
 }
+
+export async function fetchWithRetry(url, options = {}, retries = 2, delayMs = 1000) {
+  let lastError;
+  for (let attempt = 0; attempt <= retries; attempt += 1) {
+    try {
+      return await fetch(url, options);
+    } catch (err) {
+      lastError = err;
+      if (attempt < retries) await politeDelay(delayMs);
+    }
+  }
+  throw lastError;
+}

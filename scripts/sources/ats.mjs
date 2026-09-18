@@ -1,11 +1,11 @@
 import { categorize } from '../categorize.mjs';
 import { detectLevels, detectRegionBucket, estimateSalary } from '../enrich.mjs';
-import { makeJobId } from '../util.mjs';
+import { fetchWithRetry, makeJobId } from '../util.mjs';
 
 const HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; PaymentsJobBoardBot/1.0)' };
 
 async function fetchJson(url) {
-  const res = await fetch(url, { headers: HEADERS });
+  const res = await fetchWithRetry(url, { headers: HEADERS });
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
   return res.json();
 }

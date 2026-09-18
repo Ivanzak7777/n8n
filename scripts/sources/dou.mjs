@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio';
 import { categorize } from '../categorize.mjs';
 import { detectLevels, detectRegionBucket, estimateSalary } from '../enrich.mjs';
-import { matchCompany, makeJobId } from '../util.mjs';
+import { fetchWithRetry, matchCompany, makeJobId } from '../util.mjs';
 
 const CATEGORIES = ['QA', 'Product Manager'];
 const BASE_URL = 'https://jobs.dou.ua/vacancies/';
@@ -9,7 +9,7 @@ const HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; PaymentsJobBoardBot/1.
 
 async function fetchCategory(category) {
   const url = `${BASE_URL}?category=${encodeURIComponent(category)}`;
-  const res = await fetch(url, { headers: HEADERS });
+  const res = await fetchWithRetry(url, { headers: HEADERS });
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
   return res.text();
 }
