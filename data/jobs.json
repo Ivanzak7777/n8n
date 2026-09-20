@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T18:29:55.811Z",
+  "updatedAt": "2026-09-20T22:12:27.820Z",
   "jobCount": 9,
   "sourceErrors": [],
   "jobs": [
@@ -17,7 +17,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-09-18T07:53:23-04:00",
-      "scrapedAt": "2026-09-20T18:29:50.073Z"
+      "scrapedAt": "2026-09-20T22:12:21.207Z"
     },
     {
       "id": "dou:373919",
@@ -33,7 +33,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": null,
-      "scrapedAt": "2026-09-20T18:29:48.506Z"
+      "scrapedAt": "2026-09-20T22:12:19.585Z"
     },
     {
       "id": "workable:payabl:8199290120",
@@ -49,7 +49,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-08-18",
-      "scrapedAt": "2026-09-20T18:29:48.105Z"
+      "scrapedAt": "2026-09-20T22:12:19.405Z"
     },
     {
       "id": "workable:payabl:FA03F651D3",
@@ -67,7 +67,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": true,
       "postedDate": "2026-08-17",
-      "scrapedAt": "2026-09-20T18:29:48.105Z"
+      "scrapedAt": "2026-09-20T22:12:19.405Z"
     },
     {
       "id": "djinni:846420",
@@ -85,7 +85,7 @@
       "salaryEstimate": "$700–$1,100/міс",
       "isCyprus": true,
       "postedDate": null,
-      "scrapedAt": "2026-09-20T18:29:55.410Z"
+      "scrapedAt": "2026-09-20T22:12:27.418Z"
     },
     {
       "id": "greenhouse:whitetech:4338179101",
@@ -101,7 +101,7 @@
       "salaryEstimate": "$900–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-08-24T10:45:03-04:00",
-      "scrapedAt": "2026-09-20T18:29:49.188Z"
+      "scrapedAt": "2026-09-20T22:12:20.400Z"
     },
     {
       "id": "greenhouse:whitetech:4940539101",
@@ -120,7 +120,7 @@
       "salaryEstimate": "$2,300–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-08-24T10:46:32-04:00",
-      "scrapedAt": "2026-09-20T18:29:49.188Z"
+      "scrapedAt": "2026-09-20T22:12:20.400Z"
     },
     {
       "id": "greenhouse:whitetech:4344905101",
@@ -136,7 +136,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-08-24T10:49:12-04:00",
-      "scrapedAt": "2026-09-20T18:29:49.188Z"
+      "scrapedAt": "2026-09-20T22:12:20.400Z"
     },
     {
       "id": "greenhouse:whitetech:4948682101",
@@ -154,7 +154,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-08-24T10:48:17-04:00",
-      "scrapedAt": "2026-09-20T18:29:49.188Z"
+      "scrapedAt": "2026-09-20T22:12:20.400Z"
     }
   ]
 }
