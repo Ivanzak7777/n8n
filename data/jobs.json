@@ -1,24 +1,8 @@
 {
-  "updatedAt": "2026-09-24T09:01:11.455Z",
+  "updatedAt": "2026-09-24T16:34:20.560Z",
   "jobCount": 14,
   "sourceErrors": [],
   "jobs": [
-    {
-      "id": "greenhouse:gr8tech:4977471101",
-      "title": "Manual QA Engineer for CRM & Data Team",
-      "company": "GR8 Tech",
-      "companySlug": "gr8tech",
-      "location": "Warsaw",
-      "url": "https://job-boards.eu.greenhouse.io/gr8tech/jobs/4977471101",
-      "source": "greenhouse",
-      "category": "qa",
-      "levels": [],
-      "region": "eu",
-      "salaryEstimate": "$900–$5,200/міс",
-      "isCyprus": true,
-      "postedDate": "2026-09-18T07:53:23-04:00",
-      "scrapedAt": "2026-09-24T09:01:04.749Z"
-    },
     {
       "id": "workable:payabl:8199290120",
       "title": "QA Engineer (APM)",
@@ -33,7 +17,23 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-08-18",
-      "scrapedAt": "2026-09-24T09:01:03.299Z"
+      "scrapedAt": "2026-09-24T16:34:12.137Z"
+    },
+    {
+      "id": "workable:payabl:1ECCF2CD8A",
+      "title": "QA Engineer (Banking)",
+      "company": "payabl.",
+      "companySlug": "payabl",
+      "location": "Lisbon, Portugal",
+      "url": "https://apply.workable.com/j/1ECCF2CD8A",
+      "source": "workable",
+      "category": "qa",
+      "levels": [],
+      "region": "eu",
+      "salaryEstimate": "$900–$5,200/міс",
+      "isCyprus": true,
+      "postedDate": "2026-09-24",
+      "scrapedAt": "2026-09-24T16:34:12.137Z"
     },
     {
       "id": "workable:payabl:FA03F651D3",
@@ -51,23 +51,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": true,
       "postedDate": "2026-08-17",
-      "scrapedAt": "2026-09-24T09:01:03.299Z"
-    },
-    {
-      "id": "djinni:837620",
-      "title": "Product Manager (Platform)",
-      "company": "Solidgate",
-      "companySlug": "solidgate",
-      "location": "Countries of Europe or Ukraine · 2 years of experience · English - B2 · Fintech",
-      "url": "https://djinni.co/jobs/837620-product-manager-platform/",
-      "source": "djinni",
-      "category": "product",
-      "levels": [],
-      "region": "ua",
-      "salaryEstimate": "$700–$5,000/міс",
-      "isCyprus": true,
-      "postedDate": null,
-      "scrapedAt": "2026-09-24T09:01:07.790Z"
+      "scrapedAt": "2026-09-24T16:34:12.137Z"
     },
     {
       "id": "djinni:846420",
@@ -85,7 +69,7 @@
       "salaryEstimate": "$700–$1,100/міс",
       "isCyprus": true,
       "postedDate": null,
-      "scrapedAt": "2026-09-24T09:01:10.327Z"
+      "scrapedAt": "2026-09-24T16:34:19.364Z"
     },
     {
       "id": "teamtailor:finteqhub:57ff2537-e97f-466a-ba02-84f8d0c3bf29",
@@ -103,7 +87,7 @@
       "salaryEstimate": "$3,600–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-09-22T17:47:29+02:00",
-      "scrapedAt": "2026-09-24T09:01:04.717Z"
+      "scrapedAt": "2026-09-24T16:34:13.899Z"
     },
     {
       "id": "djinni:843255",
@@ -121,7 +105,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": null,
-      "scrapedAt": "2026-09-24T09:01:08.536Z"
+      "scrapedAt": "2026-09-24T16:34:17.742Z"
     },
     {
       "id": "greenhouse:whitetech:4338179101",
@@ -136,8 +120,8 @@
       "region": "eu",
       "salaryEstimate": "$900–$6,500/міс",
       "isCyprus": false,
-      "postedDate": "2026-08-24T10:45:03-04:00",
-      "scrapedAt": "2026-09-24T09:01:04.230Z"
+      "postedDate": "2026-09-24T12:02:31-04:00",
+      "scrapedAt": "2026-09-24T16:34:13.019Z"
     },
     {
       "id": "greenhouse:whitetech:4940539101",
@@ -155,8 +139,26 @@
       "region": "eu",
       "salaryEstimate": "$2,300–$6,500/міс",
       "isCyprus": false,
-      "postedDate": "2026-08-24T10:46:32-04:00",
-      "scrapedAt": "2026-09-24T09:01:04.230Z"
+      "postedDate": "2026-09-24T12:02:31-04:00",
+      "scrapedAt": "2026-09-24T16:34:13.019Z"
+    },
+    {
+      "id": "greenhouse:whitetech:4374193101",
+      "title": "Lead Business Analyst",
+      "company": "WhiteTech",
+      "companySlug": "whitetech",
+      "location": "Remote",
+      "url": "https://job-boards.eu.greenhouse.io/whitetech/jobs/4374193101",
+      "source": "greenhouse",
+      "category": "product",
+      "levels": [
+        "senior"
+      ],
+      "region": "eu",
+      "salaryEstimate": "$4,200–$6,500/міс",
+      "isCyprus": false,
+      "postedDate": "2026-09-24T12:02:31-04:00",
+      "scrapedAt": "2026-09-24T16:34:13.019Z"
     },
     {
       "id": "greenhouse:whitetech:4344905101",
@@ -171,8 +173,8 @@
       "region": "eu",
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": false,
-      "postedDate": "2026-08-24T10:49:12-04:00",
-      "scrapedAt": "2026-09-24T09:01:04.230Z"
+      "postedDate": "2026-09-24T12:02:31-04:00",
+      "scrapedAt": "2026-09-24T16:34:13.019Z"
     },
     {
       "id": "greenhouse:whitetech:4983825101",
@@ -187,8 +189,8 @@
       "region": "eu",
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": false,
-      "postedDate": "2026-09-23T09:16:05-04:00",
-      "scrapedAt": "2026-09-24T09:01:04.231Z"
+      "postedDate": "2026-09-24T12:02:31-04:00",
+      "scrapedAt": "2026-09-24T16:34:13.019Z"
     },
     {
       "id": "greenhouse:whitetech:4948682101",
@@ -205,8 +207,8 @@
       "region": "eu",
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
-      "postedDate": "2026-09-22T09:01:14-04:00",
-      "scrapedAt": "2026-09-24T09:01:04.231Z"
+      "postedDate": "2026-09-24T12:02:31-04:00",
+      "scrapedAt": "2026-09-24T16:34:13.019Z"
     },
     {
       "id": "greenhouse:whitetech:4980509101",
@@ -223,8 +225,8 @@
       "region": "eu",
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
-      "postedDate": "2026-09-21T09:15:32-04:00",
-      "scrapedAt": "2026-09-24T09:01:04.231Z"
+      "postedDate": "2026-09-24T12:02:31-04:00",
+      "scrapedAt": "2026-09-24T16:34:13.019Z"
     },
     {
       "id": "dou:374358",
@@ -240,7 +242,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": false,
       "postedDate": null,
-      "scrapedAt": "2026-09-24T09:01:03.480Z"
+      "scrapedAt": "2026-09-24T16:34:12.339Z"
     }
   ]
 }
