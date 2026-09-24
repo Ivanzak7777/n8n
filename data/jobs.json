@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T16:34:20.560Z",
+  "updatedAt": "2026-09-24T23:01:44.182Z",
   "jobCount": 14,
   "sourceErrors": [],
   "jobs": [
@@ -17,7 +17,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-08-18",
-      "scrapedAt": "2026-09-24T16:34:12.137Z"
+      "scrapedAt": "2026-09-24T23:01:35.530Z"
     },
     {
       "id": "workable:payabl:1ECCF2CD8A",
@@ -33,7 +33,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-09-24",
-      "scrapedAt": "2026-09-24T16:34:12.137Z"
+      "scrapedAt": "2026-09-24T23:01:35.530Z"
     },
     {
       "id": "workable:payabl:FA03F651D3",
@@ -51,7 +51,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": true,
       "postedDate": "2026-08-17",
-      "scrapedAt": "2026-09-24T16:34:12.137Z"
+      "scrapedAt": "2026-09-24T23:01:35.530Z"
     },
     {
       "id": "djinni:846420",
@@ -69,7 +69,7 @@
       "salaryEstimate": "$700–$1,100/міс",
       "isCyprus": true,
       "postedDate": null,
-      "scrapedAt": "2026-09-24T16:34:19.364Z"
+      "scrapedAt": "2026-09-24T23:01:42.965Z"
     },
     {
       "id": "teamtailor:finteqhub:57ff2537-e97f-466a-ba02-84f8d0c3bf29",
@@ -87,7 +87,7 @@
       "salaryEstimate": "$3,600–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-09-22T17:47:29+02:00",
-      "scrapedAt": "2026-09-24T16:34:13.899Z"
+      "scrapedAt": "2026-09-24T23:01:37.611Z"
     },
     {
       "id": "djinni:843255",
@@ -105,7 +105,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": null,
-      "scrapedAt": "2026-09-24T16:34:17.742Z"
+      "scrapedAt": "2026-09-24T23:01:41.322Z"
     },
     {
       "id": "greenhouse:whitetech:4338179101",
@@ -121,7 +121,7 @@
       "salaryEstimate": "$900–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-09-24T12:02:31-04:00",
-      "scrapedAt": "2026-09-24T16:34:13.019Z"
+      "scrapedAt": "2026-09-24T23:01:36.696Z"
     },
     {
       "id": "greenhouse:whitetech:4940539101",
@@ -140,7 +140,7 @@
       "salaryEstimate": "$2,300–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-09-24T12:02:31-04:00",
-      "scrapedAt": "2026-09-24T16:34:13.019Z"
+      "scrapedAt": "2026-09-24T23:01:36.697Z"
     },
     {
       "id": "greenhouse:whitetech:4374193101",
@@ -158,7 +158,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-09-24T12:02:31-04:00",
-      "scrapedAt": "2026-09-24T16:34:13.019Z"
+      "scrapedAt": "2026-09-24T23:01:36.697Z"
     },
     {
       "id": "greenhouse:whitetech:4344905101",
@@ -174,7 +174,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-09-24T12:02:31-04:00",
-      "scrapedAt": "2026-09-24T16:34:13.019Z"
+      "scrapedAt": "2026-09-24T23:01:36.697Z"
     },
     {
       "id": "greenhouse:whitetech:4983825101",
@@ -190,7 +190,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-09-24T12:02:31-04:00",
-      "scrapedAt": "2026-09-24T16:34:13.019Z"
+      "scrapedAt": "2026-09-24T23:01:36.697Z"
     },
     {
       "id": "greenhouse:whitetech:4948682101",
@@ -208,7 +208,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-09-24T12:02:31-04:00",
-      "scrapedAt": "2026-09-24T16:34:13.019Z"
+      "scrapedAt": "2026-09-24T23:01:36.697Z"
     },
     {
       "id": "greenhouse:whitetech:4980509101",
@@ -226,7 +226,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-09-24T12:02:31-04:00",
-      "scrapedAt": "2026-09-24T16:34:13.019Z"
+      "scrapedAt": "2026-09-24T23:01:36.697Z"
     },
     {
       "id": "dou:374358",
@@ -242,7 +242,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": false,
       "postedDate": null,
-      "scrapedAt": "2026-09-24T16:34:12.339Z"
+      "scrapedAt": "2026-09-24T23:01:35.671Z"
     }
   ]
 }
