@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T04:15:16.859Z",
+  "updatedAt": "2026-10-02T14:28:35.634Z",
   "jobCount": 14,
   "sourceErrors": [],
   "jobs": [
@@ -17,7 +17,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-08-18",
-      "scrapedAt": "2026-10-02T04:15:08.239Z"
+      "scrapedAt": "2026-10-02T14:28:26.906Z"
     },
     {
       "id": "workable:payabl:1ECCF2CD8A",
@@ -33,7 +33,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-09-24",
-      "scrapedAt": "2026-10-02T04:15:08.239Z"
+      "scrapedAt": "2026-10-02T14:28:26.906Z"
     },
     {
       "id": "workable:payabl:3CA574AB67",
@@ -49,25 +49,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-09-25",
-      "scrapedAt": "2026-10-02T04:15:08.239Z"
-    },
-    {
-      "id": "workable:payabl:FA03F651D3",
-      "title": "Senior Business Analyst",
-      "company": "payabl.",
-      "companySlug": "payabl",
-      "location": "Poland",
-      "url": "https://apply.workable.com/j/FA03F651D3",
-      "source": "workable",
-      "category": "product",
-      "levels": [
-        "senior"
-      ],
-      "region": "eu",
-      "salaryEstimate": "$4,200–$6,500/міс",
-      "isCyprus": true,
-      "postedDate": "2026-08-17",
-      "scrapedAt": "2026-10-02T04:15:08.239Z"
+      "scrapedAt": "2026-10-02T14:28:26.906Z"
     },
     {
       "id": "djinni:846420",
@@ -85,7 +67,7 @@
       "salaryEstimate": "$700–$1,100/міс",
       "isCyprus": true,
       "postedDate": null,
-      "scrapedAt": "2026-10-02T04:15:15.671Z"
+      "scrapedAt": "2026-10-02T14:28:34.399Z"
     },
     {
       "id": "teamtailor:finteqhub:a2c1df29-63de-48c0-a753-80783c398ab1",
@@ -103,7 +85,7 @@
       "salaryEstimate": "$3,600–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-09-29T17:55:00+02:00",
-      "scrapedAt": "2026-10-02T04:15:10.165Z"
+      "scrapedAt": "2026-10-02T14:28:28.823Z"
     },
     {
       "id": "teamtailor:finteqhub:57ff2537-e97f-466a-ba02-84f8d0c3bf29",
@@ -121,7 +103,23 @@
       "salaryEstimate": "$3,600–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-09-22T17:47:29+02:00",
-      "scrapedAt": "2026-10-02T04:15:10.166Z"
+      "scrapedAt": "2026-10-02T14:28:28.824Z"
+    },
+    {
+      "id": "djinni:840109",
+      "title": "Product Owner (Acquiring, Open Banking)",
+      "company": "PayDo",
+      "companySlug": "paydo",
+      "location": "Full Remote · EU · 3 years of experience · English - C1 · Fintech",
+      "url": "https://djinni.co/jobs/840109-product-owner-acquiring-open-banking/",
+      "source": "djinni",
+      "category": "product",
+      "levels": [],
+      "region": "eu",
+      "salaryEstimate": "$900–$6,500/міс",
+      "isCyprus": false,
+      "postedDate": null,
+      "scrapedAt": "2026-10-02T14:28:32.755Z"
     },
     {
       "id": "djinni:843255",
@@ -139,7 +137,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": null,
-      "scrapedAt": "2026-10-02T04:15:14.074Z"
+      "scrapedAt": "2026-10-02T14:28:32.755Z"
     },
     {
       "id": "greenhouse:whitetech:4338179101",
@@ -154,8 +152,8 @@
       "region": "eu",
       "salaryEstimate": "$900–$6,500/міс",
       "isCyprus": false,
-      "postedDate": "2026-09-29T13:00:59-04:00",
-      "scrapedAt": "2026-10-02T04:15:09.308Z"
+      "postedDate": "2026-10-02T09:20:30-04:00",
+      "scrapedAt": "2026-10-02T14:28:27.973Z"
     },
     {
       "id": "greenhouse:whitetech:4940539101",
@@ -173,8 +171,8 @@
       "region": "eu",
       "salaryEstimate": "$2,300–$6,500/міс",
       "isCyprus": false,
-      "postedDate": "2026-09-29T13:00:59-04:00",
-      "scrapedAt": "2026-10-02T04:15:09.308Z"
+      "postedDate": "2026-10-02T09:20:30-04:00",
+      "scrapedAt": "2026-10-02T14:28:27.973Z"
     },
     {
       "id": "greenhouse:whitetech:4374193101",
@@ -191,8 +189,8 @@
       "region": "eu",
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
-      "postedDate": "2026-09-29T13:00:59-04:00",
-      "scrapedAt": "2026-10-02T04:15:09.308Z"
+      "postedDate": "2026-10-02T09:20:30-04:00",
+      "scrapedAt": "2026-10-02T14:28:27.973Z"
     },
     {
       "id": "greenhouse:whitetech:4983825101",
@@ -207,8 +205,8 @@
       "region": "eu",
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": false,
-      "postedDate": "2026-09-29T13:00:59-04:00",
-      "scrapedAt": "2026-10-02T04:15:09.308Z"
+      "postedDate": "2026-10-02T09:20:30-04:00",
+      "scrapedAt": "2026-10-02T14:28:27.973Z"
     },
     {
       "id": "greenhouse:whitetech:4948682101",
@@ -225,8 +223,8 @@
       "region": "eu",
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
-      "postedDate": "2026-09-29T13:00:59-04:00",
-      "scrapedAt": "2026-10-02T04:15:09.308Z"
+      "postedDate": "2026-10-02T09:20:30-04:00",
+      "scrapedAt": "2026-10-02T14:28:27.973Z"
     },
     {
       "id": "greenhouse:whitetech:4980509101",
@@ -243,8 +241,8 @@
       "region": "eu",
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
-      "postedDate": "2026-09-29T13:00:59-04:00",
-      "scrapedAt": "2026-10-02T04:15:09.308Z"
+      "postedDate": "2026-10-02T09:20:30-04:00",
+      "scrapedAt": "2026-10-02T14:28:27.973Z"
     }
   ]
 }
