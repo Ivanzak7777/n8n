@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T20:49:11.942Z",
+  "updatedAt": "2026-10-02T04:15:16.859Z",
   "jobCount": 14,
   "sourceErrors": [],
   "jobs": [
@@ -17,7 +17,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-08-18",
-      "scrapedAt": "2026-10-01T20:49:02.983Z"
+      "scrapedAt": "2026-10-02T04:15:08.239Z"
     },
     {
       "id": "workable:payabl:1ECCF2CD8A",
@@ -33,7 +33,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-09-24",
-      "scrapedAt": "2026-10-01T20:49:02.983Z"
+      "scrapedAt": "2026-10-02T04:15:08.239Z"
     },
     {
       "id": "workable:payabl:3CA574AB67",
@@ -49,7 +49,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-09-25",
-      "scrapedAt": "2026-10-01T20:49:02.983Z"
+      "scrapedAt": "2026-10-02T04:15:08.239Z"
     },
     {
       "id": "workable:payabl:FA03F651D3",
@@ -67,7 +67,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": true,
       "postedDate": "2026-08-17",
-      "scrapedAt": "2026-10-01T20:49:02.984Z"
+      "scrapedAt": "2026-10-02T04:15:08.239Z"
     },
     {
       "id": "djinni:846420",
@@ -85,7 +85,7 @@
       "salaryEstimate": "$700–$1,100/міс",
       "isCyprus": true,
       "postedDate": null,
-      "scrapedAt": "2026-10-01T20:49:10.720Z"
+      "scrapedAt": "2026-10-02T04:15:15.671Z"
     },
     {
       "id": "teamtailor:finteqhub:a2c1df29-63de-48c0-a753-80783c398ab1",
@@ -103,7 +103,7 @@
       "salaryEstimate": "$3,600–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-09-29T17:55:00+02:00",
-      "scrapedAt": "2026-10-01T20:49:04.792Z"
+      "scrapedAt": "2026-10-02T04:15:10.165Z"
     },
     {
       "id": "teamtailor:finteqhub:57ff2537-e97f-466a-ba02-84f8d0c3bf29",
@@ -121,7 +121,7 @@
       "salaryEstimate": "$3,600–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-09-22T17:47:29+02:00",
-      "scrapedAt": "2026-10-01T20:49:04.792Z"
+      "scrapedAt": "2026-10-02T04:15:10.166Z"
     },
     {
       "id": "djinni:843255",
@@ -139,7 +139,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": null,
-      "scrapedAt": "2026-10-01T20:49:08.955Z"
+      "scrapedAt": "2026-10-02T04:15:14.074Z"
     },
     {
       "id": "greenhouse:whitetech:4338179101",
@@ -155,7 +155,7 @@
       "salaryEstimate": "$900–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-09-29T13:00:59-04:00",
-      "scrapedAt": "2026-10-01T20:49:03.915Z"
+      "scrapedAt": "2026-10-02T04:15:09.308Z"
     },
     {
       "id": "greenhouse:whitetech:4940539101",
@@ -174,7 +174,7 @@
       "salaryEstimate": "$2,300–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-09-29T13:00:59-04:00",
-      "scrapedAt": "2026-10-01T20:49:03.915Z"
+      "scrapedAt": "2026-10-02T04:15:09.308Z"
     },
     {
       "id": "greenhouse:whitetech:4374193101",
@@ -192,7 +192,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-09-29T13:00:59-04:00",
-      "scrapedAt": "2026-10-01T20:49:03.915Z"
+      "scrapedAt": "2026-10-02T04:15:09.308Z"
     },
     {
       "id": "greenhouse:whitetech:4983825101",
@@ -208,7 +208,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-09-29T13:00:59-04:00",
-      "scrapedAt": "2026-10-01T20:49:03.915Z"
+      "scrapedAt": "2026-10-02T04:15:09.308Z"
     },
     {
       "id": "greenhouse:whitetech:4948682101",
@@ -226,7 +226,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-09-29T13:00:59-04:00",
-      "scrapedAt": "2026-10-01T20:49:03.915Z"
+      "scrapedAt": "2026-10-02T04:15:09.308Z"
     },
     {
       "id": "greenhouse:whitetech:4980509101",
@@ -244,7 +244,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-09-29T13:00:59-04:00",
-      "scrapedAt": "2026-10-01T20:49:03.915Z"
+      "scrapedAt": "2026-10-02T04:15:09.308Z"
     }
   ]
 }
