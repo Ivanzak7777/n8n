@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-05T04:16:11.599Z",
-  "jobCount": 14,
+  "updatedAt": "2026-10-05T16:49:49.406Z",
+  "jobCount": 15,
   "sourceErrors": [],
   "jobs": [
     {
@@ -17,7 +17,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-08-18",
-      "scrapedAt": "2026-10-05T04:16:03.559Z"
+      "scrapedAt": "2026-10-05T16:49:41.051Z"
     },
     {
       "id": "workable:payabl:1ECCF2CD8A",
@@ -33,7 +33,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-09-24",
-      "scrapedAt": "2026-10-05T04:16:03.559Z"
+      "scrapedAt": "2026-10-05T16:49:41.051Z"
     },
     {
       "id": "workable:payabl:3CA574AB67",
@@ -49,7 +49,23 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-09-25",
-      "scrapedAt": "2026-10-05T04:16:03.559Z"
+      "scrapedAt": "2026-10-05T16:49:41.051Z"
+    },
+    {
+      "id": "djinni:851692",
+      "title": "Product Manager (Platform)",
+      "company": "Solidgate",
+      "companySlug": "solidgate",
+      "location": "Countries of Europe or Ukraine · 2 years of experience · English - B2 · Fintech",
+      "url": "https://djinni.co/jobs/851692-product-manager-platform/",
+      "source": "djinni",
+      "category": "product",
+      "levels": [],
+      "region": "ua",
+      "salaryEstimate": "$700–$5,000/міс",
+      "isCyprus": true,
+      "postedDate": null,
+      "scrapedAt": "2026-10-05T16:49:45.117Z"
     },
     {
       "id": "djinni:846420",
@@ -67,7 +83,7 @@
       "salaryEstimate": "$700–$1,100/міс",
       "isCyprus": true,
       "postedDate": null,
-      "scrapedAt": "2026-10-05T04:16:10.444Z"
+      "scrapedAt": "2026-10-05T16:49:48.169Z"
     },
     {
       "id": "teamtailor:finteqhub:a2c1df29-63de-48c0-a753-80783c398ab1",
@@ -85,7 +101,7 @@
       "salaryEstimate": "$3,600–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-09-29T17:55:00+02:00",
-      "scrapedAt": "2026-10-05T04:16:05.181Z"
+      "scrapedAt": "2026-10-05T16:49:42.691Z"
     },
     {
       "id": "teamtailor:finteqhub:57ff2537-e97f-466a-ba02-84f8d0c3bf29",
@@ -103,7 +119,7 @@
       "salaryEstimate": "$3,600–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-09-22T17:47:29+02:00",
-      "scrapedAt": "2026-10-05T04:16:05.181Z"
+      "scrapedAt": "2026-10-05T16:49:42.691Z"
     },
     {
       "id": "djinni:840109",
@@ -119,7 +135,7 @@
       "salaryEstimate": "$900–$6,500/міс",
       "isCyprus": false,
       "postedDate": null,
-      "scrapedAt": "2026-10-05T04:16:08.890Z"
+      "scrapedAt": "2026-10-05T16:49:46.594Z"
     },
     {
       "id": "djinni:843255",
@@ -137,7 +153,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": null,
-      "scrapedAt": "2026-10-05T04:16:08.890Z"
+      "scrapedAt": "2026-10-05T16:49:46.594Z"
     },
     {
       "id": "greenhouse:whitetech:4338179101",
@@ -153,7 +169,7 @@
       "salaryEstimate": "$900–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-10-02T09:20:30-04:00",
-      "scrapedAt": "2026-10-05T04:16:04.390Z"
+      "scrapedAt": "2026-10-05T16:49:41.947Z"
     },
     {
       "id": "greenhouse:whitetech:4940539101",
@@ -172,7 +188,7 @@
       "salaryEstimate": "$2,300–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-10-02T09:20:30-04:00",
-      "scrapedAt": "2026-10-05T04:16:04.390Z"
+      "scrapedAt": "2026-10-05T16:49:41.947Z"
     },
     {
       "id": "greenhouse:whitetech:4374193101",
@@ -190,7 +206,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-10-02T09:20:30-04:00",
-      "scrapedAt": "2026-10-05T04:16:04.390Z"
+      "scrapedAt": "2026-10-05T16:49:41.947Z"
     },
     {
       "id": "greenhouse:whitetech:4983825101",
@@ -206,7 +222,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-10-02T09:20:30-04:00",
-      "scrapedAt": "2026-10-05T04:16:04.390Z"
+      "scrapedAt": "2026-10-05T16:49:41.947Z"
     },
     {
       "id": "greenhouse:whitetech:4948682101",
@@ -224,7 +240,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-10-02T09:20:30-04:00",
-      "scrapedAt": "2026-10-05T04:16:04.390Z"
+      "scrapedAt": "2026-10-05T16:49:41.947Z"
     },
     {
       "id": "greenhouse:whitetech:4980509101",
@@ -242,7 +258,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-10-02T09:20:30-04:00",
-      "scrapedAt": "2026-10-05T04:16:04.390Z"
+      "scrapedAt": "2026-10-05T16:49:41.947Z"
     }
   ]
 }
