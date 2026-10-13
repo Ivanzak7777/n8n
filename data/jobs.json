@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-10-13T18:55:35.103Z",
-  "jobCount": 12,
+  "updatedAt": "2026-10-13T23:36:54.516Z",
+  "jobCount": 13,
   "sourceErrors": [],
   "jobs": [
+    {
+      "id": "dou:376569",
+      "title": "Manual QA Engineer (with Payments/Fintech Experience)",
+      "company": "GR8 Tech",
+      "companySlug": "gr8tech",
+      "location": "за кордоном, віддалено",
+      "url": "https://jobs.dou.ua/companies/gr8-tech/vacancies/376569/",
+      "source": "dou",
+      "category": "qa",
+      "levels": [],
+      "region": "eu",
+      "salaryEstimate": "$900–$5,200/міс",
+      "isCyprus": true,
+      "postedDate": null,
+      "scrapedAt": "2026-10-13T23:36:45.805Z"
+    },
     {
       "id": "workable:payabl:8199290120",
       "title": "QA Engineer (APM)",
@@ -17,7 +33,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-08-18",
-      "scrapedAt": "2026-10-13T18:55:26.132Z"
+      "scrapedAt": "2026-10-13T23:36:45.582Z"
     },
     {
       "id": "workable:payabl:1ECCF2CD8A",
@@ -33,7 +49,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-09-24",
-      "scrapedAt": "2026-10-13T18:55:26.132Z"
+      "scrapedAt": "2026-10-13T23:36:45.582Z"
     },
     {
       "id": "workable:payabl:3CA574AB67",
@@ -49,7 +65,7 @@
       "salaryEstimate": "$900–$5,200/міс",
       "isCyprus": true,
       "postedDate": "2026-09-25",
-      "scrapedAt": "2026-10-13T18:55:26.132Z"
+      "scrapedAt": "2026-10-13T23:36:45.582Z"
     },
     {
       "id": "teamtailor:finteqhub:a2c1df29-63de-48c0-a753-80783c398ab1",
@@ -67,7 +83,7 @@
       "salaryEstimate": "$3,600–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-09-29T17:55:00+02:00",
-      "scrapedAt": "2026-10-13T18:55:28.381Z"
+      "scrapedAt": "2026-10-13T23:36:47.655Z"
     },
     {
       "id": "teamtailor:finteqhub:57ff2537-e97f-466a-ba02-84f8d0c3bf29",
@@ -85,7 +101,7 @@
       "salaryEstimate": "$3,600–$5,200/міс",
       "isCyprus": false,
       "postedDate": "2026-09-22T17:47:29+02:00",
-      "scrapedAt": "2026-10-13T18:55:28.381Z"
+      "scrapedAt": "2026-10-13T23:36:47.655Z"
     },
     {
       "id": "djinni:840109",
@@ -101,7 +117,7 @@
       "salaryEstimate": "$900–$6,500/міс",
       "isCyprus": false,
       "postedDate": null,
-      "scrapedAt": "2026-10-13T18:55:32.102Z"
+      "scrapedAt": "2026-10-13T23:36:51.641Z"
     },
     {
       "id": "djinni:843255",
@@ -119,7 +135,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": null,
-      "scrapedAt": "2026-10-13T18:55:32.102Z"
+      "scrapedAt": "2026-10-13T23:36:51.641Z"
     },
     {
       "id": "greenhouse:whitetech:4338179101",
@@ -135,7 +151,7 @@
       "salaryEstimate": "$900–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-10-02T09:20:30-04:00",
-      "scrapedAt": "2026-10-13T18:55:27.279Z"
+      "scrapedAt": "2026-10-13T23:36:46.704Z"
     },
     {
       "id": "greenhouse:whitetech:4940539101",
@@ -154,7 +170,7 @@
       "salaryEstimate": "$2,300–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-10-02T09:20:30-04:00",
-      "scrapedAt": "2026-10-13T18:55:27.279Z"
+      "scrapedAt": "2026-10-13T23:36:46.705Z"
     },
     {
       "id": "greenhouse:whitetech:4374193101",
@@ -172,7 +188,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-10-02T09:20:30-04:00",
-      "scrapedAt": "2026-10-13T18:55:27.279Z"
+      "scrapedAt": "2026-10-13T23:36:46.705Z"
     },
     {
       "id": "greenhouse:whitetech:4948682101",
@@ -190,7 +206,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-10-12T08:27:13-04:00",
-      "scrapedAt": "2026-10-13T18:55:27.279Z"
+      "scrapedAt": "2026-10-13T23:36:46.705Z"
     },
     {
       "id": "greenhouse:whitetech:4980509101",
@@ -208,7 +224,7 @@
       "salaryEstimate": "$4,200–$6,500/міс",
       "isCyprus": false,
       "postedDate": "2026-10-09T05:29:25-04:00",
-      "scrapedAt": "2026-10-13T18:55:27.279Z"
+      "scrapedAt": "2026-10-13T23:36:46.705Z"
     }
   ]
 }
